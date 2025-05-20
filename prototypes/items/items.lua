@@ -72,5 +72,6 @@ data:extend {{
     flags = {},
     subgroup = "gt-stone-buildings",
     order = "aaa",
-    stack_size = 50
+    stack_size = 10,
+    place_result = "coke-oven-basic"
 }}
