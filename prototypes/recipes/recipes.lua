@@ -55,18 +55,18 @@ data:extend{{
 
 data:extend{{
     type = "recipe",
-    name = "coke-oven",
+    name = "coke-oven-basic",
     category = "crafting",
     enabled = true,
     ingredients = {
         { type = "item", name = "brick-coke", amount = 112 }
     },
     results = {
-        { type = "item", name = "coke-oven", amount = 1 }
+        { type = "item", name = "coke-oven-basic", amount = 1 }
     },
-    main_product = "coke-oven",
+    main_product = "coke-oven-basic",
     icon = "__gregtorio__/graphics/ores/ore-clay.png",
     energy_required = 10,
-    subgroup = "gt-stone-materials",
+    subgroup = "gt-stone-buildings",
     order = "aaa"
 }}

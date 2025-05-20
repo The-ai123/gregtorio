@@ -5,9 +5,7 @@ data:extend{{
   },
   allowed_effects = {
   },
-  circuit_connector = "SERPENT PLACEHOLDER" --[=[ ref [""]["assembling-machine"]["assembling-machine-1"].circuit_connector ]=],
   circuit_wire_max_distance = 9,
-  close_sound = "SERPENT PLACEHOLDER" --[=[ ref [""]["assembling-machine"]["assembling-machine-1"].close_sound ]=],
   collision_box = {
     {
       -1.2,
@@ -50,6 +48,7 @@ data:extend{{
       pollution = 3
     },
     type = "burner",
+    fuel_inventory_size = 1,
     usage_priority = "secondary-input"
   },
   energy_usage = "1kW",
@@ -338,9 +337,8 @@ data:extend{{
     mining_time = 0.2,
     result = "coke-oven-basic"
   },
-  module_slots = 2,
+  module_slots = 0,
   name = "coke-oven-basic",
-  open_sound = "SERPENT PLACEHOLDER" --[=[ ref [""]["assembling-machine"]["assembling-machine-1"].open_sound ]=],
   resistances = {
     {
       percent = 70,

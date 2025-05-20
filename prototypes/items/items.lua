@@ -66,11 +66,11 @@ data:extend {{
 
 data:extend {{
     type = "item",
-    name = "coke-oven",
+    name = "coke-oven-basic",
     icon = "__gregtorio__/graphics/ores/ore-clay.png",
     icon_size = 64,
     flags = {},
-    subgroup = "gt-stone-materials",
+    subgroup = "gt-stone-buildings",
     order = "aaa",
     stack_size = 50
 }}
