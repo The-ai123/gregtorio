@@ -9,5 +9,5 @@ require "prototypes/items/items"
 require "prototypes/recipes/recipes"
 
 
-require "prototypes.subgroups.ores"
-require "prototypes.subgroups.stone-materials"
+require "prototypes.subgroups.gt-ores"
+require "prototypes.subgroups.gt-stone-materials"
