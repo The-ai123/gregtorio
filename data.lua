@@ -1,3 +1,5 @@
+require "data-updates"
+
 require "prototypes/ores/clay"
 require "prototypes/ores/gravel"
 
