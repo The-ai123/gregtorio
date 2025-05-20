@@ -1,7 +1,7 @@
 local resource_autoplace = require "resource-autoplace"
 
-data.raw.planet.nauvis.map_gen_settings.autoplace_controls["ore-clay"] = {}
-data.raw.planet.nauvis.map_gen_settings.autoplace_settings.entity.settings["ore-clay"] = {}
+data.raw.planet.nauvis.map_gen_settings.autoplace_controls["ore-gravel"] = {}
+data.raw.planet.nauvis.map_gen_settings.autoplace_settings.entity.settings["ore-gravel"] = {}
 
 data:extend {{
     type = "autoplace-control",
