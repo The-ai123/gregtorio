@@ -1,7 +1,7 @@
 data:extend {{
     type = "item",
     name = "ore-clay",
-    icon = "graphics/ores/ore-clay.png",
+    icon = "__gregtorio__/graphics/ores/ore-clay.png",
     icon_size = 64,
     flags = {},
     subgroup = "gt-ores",

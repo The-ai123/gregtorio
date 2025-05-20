@@ -15,7 +15,7 @@ data:extend {{
     type = "resource",
     name = "ore-clay",
     --category = "ore-aluminium",
-    icon = "graphics/ores/ore-clay.png",
+    icon = "__gregtorio__/graphics/ores/ore-clay.png",
     icon_size = 32,
     flags = {"placeable-neutral"},
     order = "a-b-a",
@@ -46,7 +46,7 @@ data:extend {{
     stage_counts = {20000, 13000, 10000, 5000, 3000, 1000, 500, 100},
     stages = {
         sheet = {
-            filename = "graphics/ores/ore-clay.png",
+            filename = "__gregtorio__/graphics/ores/ore-clay.png",
             priority = "extra-high",
             width = 128,
             height = 128,
