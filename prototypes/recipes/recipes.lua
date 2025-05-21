@@ -70,3 +70,94 @@ data:extend{{
     subgroup = "gt-stone-buildings",
     order = "aaa"
 }}
+
+data:extend{{
+    type = "recipe",
+    name = "unfired-brick",
+    category = "crafting",
+    enabled = true,
+    ingredients = {
+        { type = "item", name = "ore-clay", amount = 1 }
+    },
+    results = {
+        { type = "item", name = "unfired-brick", amount = 1 }
+    },
+    main_product = "unfired-brick",
+    icon = "__gregtorio__/graphics/ores/ore-clay.png",
+    energy_required = 1,
+    subgroup = "gt-stone-materials",
+    order = "aaa"
+}}
+
+data:extend{{
+    type = "recipe",
+    name = "brick",
+    category = "smelting",
+    enabled = true,
+    ingredients = {
+        { type = "item", name = "unfired-brick", amount = 1 }
+    },
+    results = {
+        { type = "item", name = "brick", amount = 1 }
+    },
+    main_product = "brick",
+    icon = "__gregtorio__/graphics/ores/ore-clay.png",
+    energy_required = 1,
+    subgroup = "gt-stone-materials",
+    order = "aaa"
+}}
+
+data:extend{{
+    type = "recipe",
+    name = "gear-wood",
+    category = "crafting",
+    enabled = true,
+    ingredients = {
+        { type = "item", name = "wood-plank", amount = 4 },
+        { type = "item", name = "rod-wood", amount = 4 }
+    },
+    results = {
+        { type = "item", name = "brick", amount = 1 }
+    },
+    main_product = "brick",
+    icon = "__gregtorio__/graphics/ores/ore-clay.png",
+    energy_required = 1,
+    subgroup = "gt-stone-materials",
+    order = "aaa"
+}}
+
+data:extend{{
+    type = "recipe",
+    name = "rod-wood",
+    category = "crafting",
+    enabled = true,
+    ingredients = {
+        { type = "item", name = "wood-plank", amount = 1 }
+    },
+    results = {
+        { type = "item", name = "rod-wood", amount = 1 }
+    },
+    main_product = "rod-wood",
+    icon = "__gregtorio__/graphics/ores/ore-clay.png",
+    energy_required = 1,
+    subgroup = "gt-stone-materials",
+    order = "aaa"
+}}
+
+data:extend{{
+    type = "recipe",
+    name = "wood-plank",
+    category = "crafting",
+    enabled = true,
+    ingredients = {
+        { type = "item", name = "wood", amount = 1 }
+    },
+    results = {
+        { type = "item", name = "wood-plank", amount = 2 }
+    },
+    main_product = "wood-plank",
+    icon = "__gregtorio__/graphics/ores/ore-clay.png",
+    energy_required = 1,
+    subgroup = "gt-stone-materials",
+    order = "aaa"
+}}

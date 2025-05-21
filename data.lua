@@ -5,7 +5,9 @@ require "prototypes/ores/gravel"
 require "prototypes/ores/sand"
 
 
-require "prototypes/items/items"
+require "prototypes/items/gt-stone-buildings"
+require "prototypes/items/gt-ores"
+require "prototypes/items/gt-stone-materials"
 
 require "prototypes/buildings/coke-oven-basic"
 
