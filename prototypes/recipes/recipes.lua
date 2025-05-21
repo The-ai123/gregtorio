@@ -161,3 +161,22 @@ data:extend{{
     subgroup = "gt-stone-materials",
     order = "aaa"
 }}
+
+data:extend{{
+    type = "recipe",
+    name = "charcoal",
+    category = "coke-oven",
+    enabled = true,
+    ingredients = {
+        { type = "item", name = "wood", amount = 1 }
+    },
+    results = {
+        { type = "item", name = "charcoal", amount = 1 },
+        { type = "fluid", name = "fluid-creosote", amount = 250 }
+    },
+    main_product = "plank-wood",
+    icon = "__gregtorio__/graphics/ores/ore-clay.png",
+    energy_required = 90,
+    subgroup = "gt-stone-materials",
+    order = "aaa"
+}}

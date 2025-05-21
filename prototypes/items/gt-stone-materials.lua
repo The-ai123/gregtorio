@@ -96,3 +96,28 @@ data:extend {{
     order = "aaa",
     stack_size = 50
 }}
+
+data:extend {{
+    type = "item",
+    name = "charcoal",
+    icon = "__gregtorio__/graphics/ores/ore-clay.png",
+    icon_size = 64,
+    flags = {},
+    subgroup = "gt-stone-materials",
+    order = "aaa",
+    stack_size = 50
+}}
+
+data:extend {{
+    type = "fluid",
+    name = "creosote",
+    default_temperature = 15,
+    max_temperature = 100,
+    heat_capacity = "0.2kJ",
+    icon = "__gregtorio__/graphics/ores/ore-clay.png",
+    icon_size = 64,
+    flags = {},
+    subgroup = "gt-stone-materials",
+    order = "aaa",
+    stack_size = 50
+}}

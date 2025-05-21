@@ -1,12 +1,12 @@
 local resource_autoplace = require "resource-autoplace"
 
-data.raw.planet.nauvis.map_gen_settings.autoplace_controls["ore-clay"] = {}
-data.raw.planet.nauvis.map_gen_settings.autoplace_settings.entity.settings["ore-clay"] = {}
+data.raw.planet.nauvis.map_gen_settings.autoplace_controls["ore-tin"] = {}
+data.raw.planet.nauvis.map_gen_settings.autoplace_settings.entity.settings["ore-tin"] = {}
 
 data:extend {{
     type = "autoplace-control",
     category = "resource",
-    name = "ore-clay",
+    name = "ore-tin",
     richness = true,
     order = "p-clay"
 }}
@@ -21,10 +21,9 @@ data:extend {{
     order = "a-b-a",
     map_color = {r = 1, g = 0.709, b = 0.286},
     minable = {
-        -- mining_particle = "aluminium-ore-particle",
         mining_time = 1,
         results = {
-            {type = "item", name = "ore-clay", amount = 4}
+            {type = "item", name = "ore-tin", amount = 1}
         },
     },
     collision_box = {{-0.1, -0.1}, {0.1, 0.1}},
@@ -32,11 +31,11 @@ data:extend {{
     tree_removal_probability = 0.7,
     tree_removal_max_distance = 32 * 32,
     autoplace = resource_autoplace.resource_autoplace_settings {
-        name = "ore-clay",
+        name = "ore-tin",
         order = "b",
         base_density = 10,
         base_spots_per_km2 = 1.25,
-        has_starting_area_placement = true,
+        has_starting_area_placement = false,
         random_spot_size_minimum = 2,
         random_spot_size_maximum = 4,
         regular_rq_factor_multiplier = 1,
