@@ -88,7 +88,7 @@ data:extend {{
 
 data:extend {{
     type = "item",
-    name = "wood-plank",
+    name = "plank-wood",
     icon = "__gregtorio__/graphics/ores/ore-clay.png",
     icon_size = 64,
     flags = {},

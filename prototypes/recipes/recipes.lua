@@ -113,13 +113,13 @@ data:extend{{
     category = "crafting",
     enabled = true,
     ingredients = {
-        { type = "item", name = "wood-plank", amount = 4 },
+        { type = "item", name = "plank-wood", amount = 4 },
         { type = "item", name = "rod-wood", amount = 4 }
     },
     results = {
-        { type = "item", name = "brick", amount = 1 }
+        { type = "item", name = "gear-wood", amount = 1 }
     },
-    main_product = "brick",
+    main_product = "gear-wood",
     icon = "__gregtorio__/graphics/ores/ore-clay.png",
     energy_required = 1,
     subgroup = "gt-stone-materials",
@@ -132,7 +132,7 @@ data:extend{{
     category = "crafting",
     enabled = true,
     ingredients = {
-        { type = "item", name = "wood-plank", amount = 1 }
+        { type = "item", name = "plank-wood", amount = 1 }
     },
     results = {
         { type = "item", name = "rod-wood", amount = 1 }
@@ -146,16 +146,16 @@ data:extend{{
 
 data:extend{{
     type = "recipe",
-    name = "wood-plank",
+    name = "plank-wood",
     category = "crafting",
     enabled = true,
     ingredients = {
         { type = "item", name = "wood", amount = 1 }
     },
     results = {
-        { type = "item", name = "wood-plank", amount = 2 }
+        { type = "item", name = "plank-wood", amount = 2 }
     },
-    main_product = "wood-plank",
+    main_product = "plank-wood",
     icon = "__gregtorio__/graphics/ores/ore-clay.png",
     energy_required = 1,
     subgroup = "gt-stone-materials",
