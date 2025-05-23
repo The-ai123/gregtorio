@@ -6,6 +6,7 @@ require "prototypes/ores/sand"
 require "prototypes/ores/tin"
 
 
+require "prototypes/items/gt-science-packs"
 require "prototypes/items/gt-stone-buildings"
 require "prototypes/items/gt-ores"
 require "prototypes/items/gt-stone-materials"
@@ -17,8 +18,7 @@ require "prototypes/recipe-categories/recipe-categories"
 require "prototypes/recipes/recipes"
 
 
-require "prototypes/subgroups/gt-ores"
-require "prototypes/subgroups/gt-stone-materials"
-require "prototypes/subgroups/gt-stone-buildings"
+require "prototypes/subgroups/subgroups"
+
 
 require "prototypes/technologies/technologies"

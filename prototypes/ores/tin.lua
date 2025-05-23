@@ -13,7 +13,7 @@ data:extend {{
 
 data:extend {{
     type = "resource",
-    name = "ore-clay",
+    name = "ore-tin",
     --category = "ore-aluminium",
     icon = "__gregtorio__/graphics/ores/ore-clay.png",
     icon_size = 32,
