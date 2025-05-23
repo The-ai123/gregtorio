@@ -18,10 +18,3 @@ data:extend {{
     group = "intermediate-products",
     order = "e"
 }}
-
-data:extend {{
-    type = "item-subgroup",
-    name = "gt-science-packs",
-    group = "intermediate-products",
-    order = "e"
-}}

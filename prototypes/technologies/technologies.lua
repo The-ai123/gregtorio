@@ -23,6 +23,7 @@ data:extend{{
     icon_size = 64,
     unit = {
         count = 5,
+        time = 30,
         ingredients = {
             { "gt-stone-science-pack", 1 }
         },
