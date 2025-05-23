@@ -15,3 +15,38 @@ data:extend{{
         }
     }
 }}
+
+data:extend{{
+    name = "coke-oven-basic",
+    type = "technology",
+    icon = "__gregtorio__/graphics/ores/ore-clay.png",
+    icon_size = 64,
+    unit = {
+        count = 5,
+        ingredients = {
+            { "gt-stone-science-pack", 1 }
+        },
+    },
+    effects = {
+        {
+            type = "unlock-recipe",
+            recipe = "charcoal"
+        },
+        {
+            type = "unlock-recipe",
+            recipe = "coke-oven-basic"
+        },
+        {
+            type = "unlock-recipe",
+            recipe = "brick-coke"
+        },
+        {
+            type = "unlock-recipe",
+            recipe = "unfired-brick-coke"
+        },
+        {
+            type = "unlock-recipe",
+            recipe = "coke"
+        },
+    },
+}}

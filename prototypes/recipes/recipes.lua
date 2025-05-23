@@ -166,7 +166,7 @@ data:extend{{
     type = "recipe",
     name = "charcoal",
     category = "coke-oven",
-    enabled = true,
+    enabled = false,
     ingredients = {
         { type = "item", name = "wood", amount = 1 }
     },
@@ -185,7 +185,7 @@ data:extend{{
     type = "recipe",
     name = "coke",
     category = "coke-oven",
-    enabled = true,
+    enabled = false,
     ingredients = {
         { type = "item", name = "charcoal", amount = 1 }
     },
