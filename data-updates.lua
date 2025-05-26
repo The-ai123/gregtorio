@@ -8,3 +8,7 @@ data.raw["recipe"]["burner-mining-drill"].ingredients = {
     { type = "item", name = "brick", amount = 4 },
     { type = "item", name = "stone-furnace", amount = 1 }
 }
+
+data.raw["recipe"]["recipe"].ingredients = {
+    { type = "item", name = "plate-tin", amount = 6 }
+}

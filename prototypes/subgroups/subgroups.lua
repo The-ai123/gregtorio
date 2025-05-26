@@ -18,3 +18,17 @@ data:extend {{
     group = "intermediate-products",
     order = "e"
 }}
+
+data:extend {{
+    type = "item-subgroup",
+    name = "gt-plates",
+    group = "intermediate-products",
+    order = "e"
+}}
+
+data:extend {{
+    type = "item-subgroup",
+    name = "gt-ingots",
+    group = "intermediate-products",
+    order = "e"
+}}
