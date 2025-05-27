@@ -9,6 +9,21 @@ data.raw["recipe"]["burner-mining-drill"].ingredients = {
     { type = "item", name = "stone-furnace", amount = 1 }
 }
 
-data.raw["recipe"]["recipe"].ingredients = {
+--belts
+data.raw["recipe"]["transport-belt"].ingredients = {
     { type = "item", name = "plate-tin", amount = 6 }
 }
+
+data.raw["recipe"]["underground-belt"].ingredients = {
+    { type = "item", name = "plate-tin", amount = 10 },
+    { type = "item", name = "transport-belt", amount = 2 }
+}
+
+data.raw["recipe"]["splitter"].ingredients = {
+    { type = "item", name = "plate-tin", amount = 10 },
+    { type = "item", name = "transport-belt", amount = 2 }
+}
+
+--disable vanilla ore processing
+data.raw["recipe"]["iron-plate"].enabled = false
+data.raw["recipe"]["copper-plate"].enabled = false
