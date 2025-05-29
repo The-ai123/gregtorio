@@ -8,7 +8,7 @@ local resources = {
 for i=1, #resources do
     data:extend {{
         type = "item",
-        name = "ingot-" .. resources[i],
+        name = resources[i] .. "-ingot",
         icon = "__gregtorio__/graphics/ores/ore-clay.png",
         icon_size = 64,
         flags = {},

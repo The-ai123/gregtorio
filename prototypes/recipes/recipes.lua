@@ -4,7 +4,7 @@ data:extend{{
     category = "crafting",
     enabled = true,
     ingredients = {
-        { type = "item", name = "ore-gravel", amount = 3 }
+        { type = "item", name = "gravel-ore", amount = 3 }
     },
     results = {
         { type = "item", name = "flint", amount = 1 }
@@ -22,8 +22,8 @@ data:extend{{
     category = "crafting",
     enabled = true,
     ingredients = {
-        { type = "item", name = "ore-clay", amount = 4 },
-        { type = "item", name = "ore-sand", amount = 1 }
+        { type = "item", name = "clay-ore", amount = 4 },
+        { type = "item", name = "sand-ore", amount = 1 }
     },
     results = {
         { type = "item", name = "unfired-brick-coke", amount = 1 }
@@ -77,7 +77,7 @@ data:extend{{
     category = "crafting",
     enabled = true,
     ingredients = {
-        { type = "item", name = "ore-clay", amount = 1 }
+        { type = "item", name = "clay-ore", amount = 1 }
     },
     results = {
         { type = "item", name = "unfired-brick", amount = 1 }
@@ -113,8 +113,8 @@ data:extend{{
     category = "crafting",
     enabled = true,
     ingredients = {
-        { type = "item", name = "plate-wood", amount = 4 },
-        { type = "item", name = "rod-wood", amount = 4 }
+        { type = "item", name = "wood-plate", amount = 4 },
+        { type = "item", name = "wood-rod", amount = 4 }
     },
     results = {
         { type = "item", name = "gear-wood", amount = 1 }
@@ -132,12 +132,12 @@ data:extend{{
     category = "crafting",
     enabled = true,
     ingredients = {
-        { type = "item", name = "plate-wood", amount = 1 }
+        { type = "item", name = "wood-plate", amount = 1 }
     },
     results = {
-        { type = "item", name = "rod-wood", amount = 1 }
+        { type = "item", name = "wood-rod", amount = 1 }
     },
-    main_product = "rod-wood",
+    main_product = "wood-rod",
     icon = "__gregtorio__/graphics/ores/ore-clay.png",
     energy_required = 1,
     subgroup = "gt-stone-materials",

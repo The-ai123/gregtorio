@@ -1,15 +1,13 @@
 local resources = {
     "tin",
     "bronze",
-    "wood",
-    "copper",
-    "iron"
+    "wood"
 }
 
 for i=1, #resources do
     data:extend {{
         type = "item",
-        name = "plate-" .. resources[i],
+        name =  resources[i] .. "-plate",
         icon = "__gregtorio__/graphics/ores/ore-clay.png",
         icon_size = 64,
         flags = {},

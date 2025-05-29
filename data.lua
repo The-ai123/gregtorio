@@ -20,7 +20,8 @@ require "prototypes/buildings/burner-lab"
 require "prototypes/recipe-categories/recipe-categories"
 
 require "prototypes/recipes/recipes"
-require "prototypes/recipes/plates"
+require "prototypes/recipes/plates-recipes"
+require "prototypes/recipes/ingots-recipes"
 
 
 require "prototypes/subgroups/subgroups"

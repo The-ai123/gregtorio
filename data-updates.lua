@@ -11,16 +11,16 @@ data.raw["recipe"]["burner-mining-drill"].ingredients = {
 
 --belts
 data.raw["recipe"]["transport-belt"].ingredients = {
-    { type = "item", name = "plate-tin", amount = 6 }
+    { type = "item", name = "tin-plate", amount = 6 }
 }
 
 data.raw["recipe"]["underground-belt"].ingredients = {
-    { type = "item", name = "plate-tin", amount = 10 },
+    { type = "item", name = "tin-plate", amount = 10 },
     { type = "item", name = "transport-belt", amount = 2 }
 }
 
 data.raw["recipe"]["splitter"].ingredients = {
-    { type = "item", name = "plate-tin", amount = 10 },
+    { type = "item", name = "tin-plate", amount = 10 },
     { type = "item", name = "transport-belt", amount = 2 }
 }
 

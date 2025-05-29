@@ -1,19 +1,19 @@
 local resource_autoplace = require "resource-autoplace"
 
-data.raw.planet.nauvis.map_gen_settings.autoplace_controls["ore-tin"] = {}
-data.raw.planet.nauvis.map_gen_settings.autoplace_settings.entity.settings["ore-tin"] = {}
+data.raw.planet.nauvis.map_gen_settings.autoplace_controls["tin-ore"] = {}
+data.raw.planet.nauvis.map_gen_settings.autoplace_settings.entity.settings["tin-ore"] = {}
 
 data:extend {{
     type = "autoplace-control",
     category = "resource",
-    name = "ore-tin",
+    name = "tin-ore",
     richness = true,
     order = "p-clay"
 }}
 
 data:extend {{
     type = "resource",
-    name = "ore-tin",
+    name = "tin-ore",
     --category = "ore-aluminium",
     icon = "__gregtorio__/graphics/ores/ore-clay.png",
     icon_size = 32,
@@ -23,7 +23,7 @@ data:extend {{
     minable = {
         mining_time = 1,
         results = {
-            {type = "item", name = "ore-tin", amount = 1}
+            {type = "item", name = "tin-ore", amount = 1}
         },
     },
     collision_box = {{-0.1, -0.1}, {0.1, 0.1}},
@@ -31,7 +31,7 @@ data:extend {{
     tree_removal_probability = 0.7,
     tree_removal_max_distance = 32 * 32,
     autoplace = resource_autoplace.resource_autoplace_settings {
-        name = "ore-tin",
+        name = "tin-ore",
         order = "b",
         base_density = 10,
         base_spots_per_km2 = 1.25,

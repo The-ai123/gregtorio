@@ -1,43 +1,19 @@
-data:extend {{
-    type = "item",
-    name = "ore-clay",
-    icon = "__gregtorio__/graphics/ores/ore-clay.png",
-    icon_size = 64,
-    flags = {},
-    subgroup = "gt-ores",
-    order = "aaa",
-    stack_size = 50
-}}
+local resources = {
+    "clay",
+    "gravel",
+    "tin",
+    "sand"
+}
 
-data:extend {{
-    type = "item",
-    name = "ore-gravel",
-    icon = "__gregtorio__/graphics/ores/ore-clay.png",
-    icon_size = 64,
-    flags = {},
-    subgroup = "gt-ores",
-    order = "aaa",
-    stack_size = 50
-}}
-
-data:extend {{
-    type = "item",
-    name = "ore-sand",
-    icon = "__gregtorio__/graphics/ores/ore-clay.png",
-    icon_size = 64,
-    flags = {},
-    subgroup = "gt-ores",
-    order = "aaa",
-    stack_size = 50
-}}
-
-data:extend {{
-    type = "item",
-    name = "ore-tin",
-    icon = "__gregtorio__/graphics/ores/ore-clay.png",
-    icon_size = 64,
-    flags = {},
-    subgroup = "gt-ores",
-    order = "aaa",
-    stack_size = 50
-}}
+for i=1, #resources do
+    data:extend {{
+        type = "item",
+        name = resources[i] .. "-ore",
+        icon = "__gregtorio__/graphics/ores/ore-clay.png",
+        icon_size = 64,
+        flags = {},
+        subgroup = "gt-ores",
+        order = "aaa",
+        stack_size = 50
+    }}
+end

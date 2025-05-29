@@ -32,3 +32,10 @@ data:extend {{
     group = "intermediate-products",
     order = "e"
 }}
+
+data:extend {{
+    type = "item-subgroup",
+    name = "gt-dusts",
+    group = "intermediate-products",
+    order = "e"
+}}

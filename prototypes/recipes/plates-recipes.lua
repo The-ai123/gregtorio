@@ -1,15 +1,15 @@
 data:extend{{
     type = "recipe",
-    name = "plate-wood",
+    name = "wood-plate",
     category = "crafting",
     enabled = true,
     ingredients = {
         { type = "item", name = "wood", amount = 1 }
     },
     results = {
-        { type = "item", name = "plate-wood", amount = 2 }
+        { type = "item", name = "wood-plate", amount = 2 }
     },
-    main_product = "plate-wood",
+    main_product = "wood-plate",
     icon = "__gregtorio__/graphics/ores/ore-clay.png",
     energy_required = 1,
     subgroup = "gt-stone-materials",
@@ -26,16 +26,16 @@ local resources = {
 for i=1, #resources do
     data:extend {{
         type = "recipe",
-        name = "plate-" .. resources[i][1],
+        name = resources[i][1] .. "-plate",
         category = "crafting",
         enabled = resources[i][2],
         ingredients = {
-            { type = "item", name = "ingot-" .. resources[i][1], amount = 1 }
+            { type = "item", name = resources[i][1] .. "-ingot", amount = 2 }
         },
         results = {
-            { type = "item", name = "plate-" .. resources[i][1], amount = 2 }
+            { type = "item", name = resources[i][1] .. "-plate", amount = 1 }
         },
-        main_product = "plate-" .. resources[i][1],
+        main_product = resources[i][1] .. "-plate",
         icon = "__gregtorio__/graphics/ores/ore-clay.png",
         energy_required = 1,
         subgroup = "gt-stone-materials",
