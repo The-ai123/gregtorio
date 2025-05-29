@@ -4,7 +4,7 @@ data.raw["recipe"]["stone-furnace"].ingredients = {
 }
 
 data.raw["recipe"]["burner-mining-drill"].ingredients = {
-    { type = "item", name = "gear-wood", amount = 1 },
+    { type = "item", name = "wood-gear-wheel", amount = 1 },
     { type = "item", name = "brick", amount = 4 },
     { type = "item", name = "stone-furnace", amount = 1 }
 }

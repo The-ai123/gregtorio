@@ -23,7 +23,7 @@ for i=1, #resources do
             { type = "item", name = resources[i][1] .. "-ingot", amount = 1 }
         },
         main_product = resources[i][1] .. "-ingot",
-        icon = "__gregtorio__/graphics/ores/ore-clay.png",
+        icon = "__gregtorio__/graphics/items/ingots/".. resources[i][1] .. "-ingot.png",
         energy_required = 1,
         subgroup = "gt-ingots",
         order = "aaa"

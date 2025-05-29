@@ -1,3 +1,4 @@
+
 data:extend {{
     type = "item-subgroup",
     name = "gt-ores",
@@ -36,6 +37,20 @@ data:extend {{
 data:extend {{
     type = "item-subgroup",
     name = "gt-dusts",
+    group = "intermediate-products",
+    order = "e"
+}}
+
+data:extend {{
+    type = "item-subgroup",
+    name = "gt-gear-wheels",
+    group = "intermediate-products",
+    order = "e"
+}}
+
+data:extend {{
+    type = "item-subgroup",
+    name = "gt-rods",
     group = "intermediate-products",
     order = "e"
 }}

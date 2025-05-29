@@ -66,28 +66,6 @@ data:extend {{
 
 data:extend {{
     type = "item",
-    name = "gear-wood",
-    icon = "__gregtorio__/graphics/ores/ore-clay.png",
-    icon_size = 64,
-    flags = {},
-    subgroup = "gt-stone-materials",
-    order = "aaa",
-    stack_size = 50
-}}
-
-data:extend {{
-    type = "item",
-    name = "wood-rod",
-    icon = "__gregtorio__/graphics/ores/ore-clay.png",
-    icon_size = 64,
-    flags = {},
-    subgroup = "gt-stone-materials",
-    order = "aaa",
-    stack_size = 50
-}}
-
-data:extend {{
-    type = "item",
     name = "charcoal",
     icon = "__gregtorio__/graphics/ores/ore-clay.png",
     icon_size = 64,

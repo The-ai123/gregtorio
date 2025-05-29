@@ -13,6 +13,8 @@ require "prototypes/items/gt-stone-materials"
 require "prototypes/items/gt-plates"
 require "prototypes/items/gt-ingots"
 require "prototypes/items/gt-dusts"
+require "prototypes/items/gt-rods"
+require "prototypes/items/gt-gear-wheels"
 
 require "prototypes/buildings/coke-oven-basic"
 require "prototypes/buildings/burner-lab"
@@ -22,6 +24,7 @@ require "prototypes/recipe-categories/recipe-categories"
 require "prototypes/recipes/recipes"
 require "prototypes/recipes/plates-recipes"
 require "prototypes/recipes/ingots-recipes"
+require "prototypes/recipes/gears-recipes"
 
 
 require "prototypes/subgroups/subgroups"

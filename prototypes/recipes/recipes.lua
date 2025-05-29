@@ -109,43 +109,6 @@ data:extend{{
 
 data:extend{{
     type = "recipe",
-    name = "gear-wood",
-    category = "crafting",
-    enabled = true,
-    ingredients = {
-        { type = "item", name = "wood-plate", amount = 4 },
-        { type = "item", name = "wood-rod", amount = 4 }
-    },
-    results = {
-        { type = "item", name = "gear-wood", amount = 1 }
-    },
-    main_product = "gear-wood",
-    icon = "__gregtorio__/graphics/ores/ore-clay.png",
-    energy_required = 1,
-    subgroup = "gt-stone-materials",
-    order = "aaa"
-}}
-
-data:extend{{
-    type = "recipe",
-    name = "rod-wood",
-    category = "crafting",
-    enabled = true,
-    ingredients = {
-        { type = "item", name = "wood-plate", amount = 1 }
-    },
-    results = {
-        { type = "item", name = "wood-rod", amount = 1 }
-    },
-    main_product = "wood-rod",
-    icon = "__gregtorio__/graphics/ores/ore-clay.png",
-    energy_required = 1,
-    subgroup = "gt-stone-materials",
-    order = "aaa"
-}}
-
-data:extend{{
-    type = "recipe",
     name = "charcoal",
     category = "coke-oven",
     enabled = false,
