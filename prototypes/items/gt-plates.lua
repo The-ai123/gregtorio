@@ -1,6 +1,9 @@
 local resources = {
     "tin",
-    "bronze"
+    "bronze",
+    "wood",
+    "copper",
+    "iron"
 }
 
 for i=1, #resources do

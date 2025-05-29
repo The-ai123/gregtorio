@@ -11,6 +11,8 @@ require "prototypes/items/gt-stone-buildings"
 require "prototypes/items/gt-ores"
 require "prototypes/items/gt-stone-materials"
 require "prototypes/items/gt-plates"
+require "prototypes/items/gt-ingots"
+require "prototypes/items/gt-dusts"
 
 require "prototypes/buildings/coke-oven-basic"
 require "prototypes/buildings/burner-lab"
