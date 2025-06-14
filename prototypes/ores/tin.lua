@@ -23,7 +23,8 @@ data:extend {{
     minable = {
         mining_time = 1,
         results = {
-            {type = "item", name = "tin-ore", amount = 1}
+            {type = "item", name = "tin-ore", amount = 1, probability = 0.9},
+            {type = "item", name = "cassiterite-ore", amount = 1, probability = 0.1}
         },
     },
     collision_box = {{-0.1, -0.1}, {0.1, 0.1}},

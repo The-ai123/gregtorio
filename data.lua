@@ -6,6 +6,7 @@ require "prototypes/ores/sand"
 require "prototypes/ores/tin"
 
 
+
 require "prototypes/items/gt-science-packs"
 require "prototypes/items/gt-stone-buildings"
 require "prototypes/items/gt-ores"
@@ -15,6 +16,7 @@ require "prototypes/items/gt-ingots"
 require "prototypes/items/gt-dusts"
 require "prototypes/items/gt-rods"
 require "prototypes/items/gt-gear-wheels"
+require "prototypes/items/gt-plants"
 
 require "prototypes/buildings/coke-oven-basic"
 require "prototypes/buildings/burner-lab"

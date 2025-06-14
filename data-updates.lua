@@ -27,3 +27,7 @@ data.raw["recipe"]["splitter"].ingredients = {
 --disable vanilla ore processing
 data.raw["recipe"]["iron-plate"].enabled = false
 data.raw["recipe"]["copper-plate"].enabled = false
+
+--disable vanilla technologies
+data.raw["technology"]["electronics"].enabled = false
+data.raw["technology"]["steam-power"].enabled = false

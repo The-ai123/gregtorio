@@ -2,7 +2,22 @@ local resources = {
     "clay",
     "gravel",
     "tin",
-    "sand"
+    "sand",
+    "cassiterite",
+    "redstone",
+    "banded-iron",
+    "brown-limonite",
+    "yellow-limonite",
+    "malachite",
+    "cassiterite-sand",
+    "chalcopyrite",
+    "pyrite",
+    "cinnabar",
+    "diamond",
+    "graphite",
+    "pyrite",
+    "ruby"
+
 }
 
 for i=1, #resources do
