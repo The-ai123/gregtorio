@@ -1,11 +1,24 @@
-data:extend {{
-    type = "item",
-    name = "coke-oven-basic",
-    icon = "__gregtorio__/graphics/ores/ore-clay.png",
-    icon_size = 64,
-    flags = {},
-    subgroup = "gt-stone-buildings",
-    order = "aaa",
-    stack_size = 10,
-    place_result = "coke-oven-basic"
-}}
+--format is {name, stack size}
+local items = {
+    {"coke-oven-basic", 10},
+    {"burner-lab", 10},
+    {"seed-finder", 10},
+    {"animal-breeder", 10},
+    {"animal-pen", 10},
+    {"slaughter-house", 10}
+}
+
+for i=1, #items do
+    data:extend {{
+        type = "item",
+        name = items[i][1],
+        icon = "__gregtorio__/graphics/ores/ore-clay.png",
+        icon_size = 64,
+        flags = {},
+        subgroup = "gt-stone-buildings",
+        order = "aaa",
+        stack_size = items[i][2],
+        --place_result = items[i][1]
+    }}
+end
+

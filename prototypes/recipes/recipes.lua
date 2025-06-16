@@ -163,3 +163,23 @@ data:extend{{
     subgroup = "gt-stone-materials",
     order = "aaa"
 }}
+
+data:extend{{
+    type = "recipe",
+    name = "burner-lab",
+    category = "crafting",
+    enabled = true,
+    ingredients = {
+        { type = "item", name = "wood-gear-wheel", amount = 1 },
+        { type = "item", name = "brick", amount = 4 },
+        { type = "item", name = "stone-furnace", amount = 1}
+    },
+    results = {
+        { type = "item", name = "burner-lab", amount = 1 }
+    },
+    main_product = "burner-lab",
+    icon = "__gregtorio__/graphics/ores/ore-clay.png",
+    energy_required = 90,
+    subgroup = "gt-stone-materials",
+    order = "aaa"
+}}

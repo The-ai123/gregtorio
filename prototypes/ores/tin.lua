@@ -15,7 +15,7 @@ data:extend {{
     type = "resource",
     name = "tin-ore",
     --category = "ore-aluminium",
-    icon = "__gregtorio__/graphics/ores/ore-clay.png",
+    icon = "__gregtorio__/graphics/items/ores/tin-ore.png",
     icon_size = 32,
     flags = {"placeable-neutral"},
     order = "a-b-a",
@@ -43,15 +43,15 @@ data:extend {{
         starting_rq_factor_multiplier = 2,
         candidate_spot_count = 20
     },
-    stage_counts = {20000, 13000, 10000, 5000, 3000, 1000, 500, 100},
+    stage_counts = {1},
     stages = {
         sheet = {
-            filename = "__gregtorio__/graphics/ores/ore-clay.png",
+            filename = "__gregtorio__/graphics/items/ores/tin-ore.png",
             priority = "extra-high",
-            width = 128,
-            height = 128,
-            frame_count = 8,
-            variation_count = 8,
+            width = 64,
+            height = 64,
+            frame_count = 1,
+            variation_count = 1,
             scale = 0.5
         }
     }
