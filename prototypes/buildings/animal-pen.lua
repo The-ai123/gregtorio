@@ -3,6 +3,16 @@ data.extend{{
     name = "animal-pen",
     icon = "__gregtorio__/graphics/buildings/animal-pen.png",
     icon_size = 64,
+    graphics_set = {
+        animation = {
+            filename = "__gregtorio__/graphics/buildings/animal-pen.png",
+            priority = "high",
+            width = 64,
+            height = 64,
+            scale = 1,
+            shift = {0, 0}
+        }
+    },
     flags = {"placeable-neutral", "player-creation"},
     minable = {mining_time = 1, result = "animal-pen"},
     max_health = 100,
@@ -21,4 +31,5 @@ data.extend{{
         },
     },
     energy_usage = "100kW",
+    crafting_categories = {"animal-pen"},
 }}

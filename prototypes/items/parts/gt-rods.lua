@@ -10,7 +10,7 @@ for i=1, #resources do
     data:extend {{
         type = "item",
         name = resources[i] .. "-rod",
-        icon = "__gregtorio__/graphics/ores/ore-clay.png",
+        icon = "__gregtorio__/graphics/items/rods/" .. resources[i] .. "-rod.png",
         icon_size = 64,
         flags = {},
         subgroup = "gt-rods",

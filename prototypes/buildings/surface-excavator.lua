@@ -1,16 +1,11 @@
 data.extend{{
-    type = "lab",
-    name = "burner-lab",
-    icon = "__gregtorio__/graphics/ores/ore-clay.png",
+    type = "assembling-machine",
+    name = "surface-excavator",
+    icon = "__gregtorio__/graphics/buildings/surface-excavator.png",
     icon_size = 64,
-     flags = {"placeable-neutral", "player-creation"},
-    minable = {mining_time = 0.5, result = "coke-oven-basic"},
-    fast_replaceable_group = "assembling-machine",
-    max_health = 100,
-    corpse = "medium-remnants",
     graphics_set = {
         animation = {
-            filename = "__gregtorio__/graphics/buildings/burner-lab.png",
+            filename = "__gregtorio__/graphics/buildings/surface-excavator.png",
             priority = "high",
             width = 64,
             height = 64,
@@ -18,11 +13,15 @@ data.extend{{
             shift = {0, 0}
         }
     },
+    flags = {"placeable-neutral", "player-creation"},
+    minable = {mining_time = 1, result = "surface-excavator"},
+    max_health = 100,
+    corpse = "medium-remnants",
     collision_box = {{-1.3, -1.3}, {1.3, 1.3}},
     selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
-    forced_symmetry = "diagonal-neg",
     module_slots = 0,
     allowed_effects = {},
+    crafting_speed = 0.2,
     energy_source = {
         type = "burner",
         fuel_inventory_size = 1,
@@ -31,9 +30,6 @@ data.extend{{
             pollution = 1
         },
     },
-    energy_usage = "220kW",
-    inputs = {
-        "gt-stone-science-pack"
-    }
-
+    energy_usage = "100kW",
+    crafting_categories = {"animal-pen"},
 }}

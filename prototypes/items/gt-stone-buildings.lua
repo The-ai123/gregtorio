@@ -4,6 +4,7 @@ local items = {
     {"burner-lab", 10},
     {"sieve", 10},
     {"animal-pen", 10},
+    {"surface-excavator", 10}
 }
 
 for i=1, #items do
@@ -16,7 +17,7 @@ for i=1, #items do
         subgroup = "gt-stone-buildings",
         order = "aaa",
         stack_size = items[i][2],
-        --place_result = items[i][1]
+        place_result = items[i][1]
     }}
 end
 

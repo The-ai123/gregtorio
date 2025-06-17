@@ -35,7 +35,7 @@ data:extend{{
     autoplace = {
         control = "animals",
         order = "a[doodad]-a[rock]-b[big]",
-        probability_expression = ".001 * control:animals:size"
+        probability_expression = ".0001 * control:animals:size"
       },
     map_color = {
         0, 0, 0, 0.4

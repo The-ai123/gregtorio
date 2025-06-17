@@ -5,10 +5,18 @@ type = "furnace",
     icon_size = 64,
     flags = {"placeable-neutral", "player-creation"},
     minable = {mining_time = 0.5, result = "coke-oven-basic"},
-    fast_replaceable_group = "assembling-machine",
+    graphics_set = {
+        animation = {
+            filename = "__gregtorio__/graphics/buildings/coke-oven-basic.png",
+            priority = "high",
+            width = 64,
+            height = 64,
+            scale = 1,
+            shift = {0, 0}
+        }
+    },
     max_health = 100,
     corpse = "medium-remnants",
-    dying_explosion = "big-explosion",
     collision_box = {{-1.3, -1.3}, {1.3, 1.3}},
     selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
     forced_symmetry = "diagonal-neg",
@@ -27,41 +35,7 @@ type = "furnace",
         },
     },
     energy_usage = "10kW",
-    graphics_set = {
-        animation = {
-            layers = {
-                {
-                    filename = "__gregtorio__/graphics/ores/ore-clay.png",
-                    width = 96,
-                    height = 192,
-                    frame_count = 40,
-                    line_length = 10,
-                    shift = util.by_pixel(0, -48),
-                    animation_speed = 0.6,
-                },
-                {
-                    filename = "__gregtorio__/graphics/ores/ore-clay.png",
-                    width = 160,
-                    height = 224,
-                    frame_count = 40,
-                    line_length = 10,
-                    shift = util.by_pixel(0, -32),
-                    animation_speed = 0.6,
-                },
-                {
-                    filename = "__gregtorio__/graphics/ores/ore-clay.png",
-                    width = 128,
-                    height = 128,
-                    frame_count = 1,
-                    repeat_count = 40,
-                    draw_as_shadow = true,
-                    line_length = 1,
-                    shift = util.by_pixel(16, 16),
-                    animation_speed = 0.6,
-                },
-            }
-        },
-    },
+    
     fluid_boxes_off_when_no_fluid_recipe = false,
     fluid_boxes = {
         {

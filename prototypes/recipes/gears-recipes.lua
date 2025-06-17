@@ -20,7 +20,7 @@ for i=1, #resources do
             { type = "item", name = resources[i][1] .. "-gear-wheel", amount = 1 }
         },
         main_product = resources[i][1] .. "-gear-wheel",
-        icon = "__gregtorio__/graphics/ores/ore-clay.png",
+        icon = "__gregtorio__/graphics/items/gear-wheels/" .. resources[i][1] .. "-gear-wheel.png",
         energy_required = 1,
         subgroup = "gt-stone-materials",
         order = "aaa"

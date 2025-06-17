@@ -10,7 +10,7 @@ for i=1, #items do
         data:extend {{
         type = "item",
         name = items[i][1],
-        icon = "__gregtorio__/graphics/ores/ore-clay.png",
+        icon = "__gregtorio__/graphics/items/natural/animals/" .. items[i][1] .. ".png",
         icon_size = 64,
         flags = {},
         subgroup = "gt-stone-buildings",
@@ -22,7 +22,7 @@ for i=1, #items do
     data:extend {{
         type = "item",
         name = items[i][1],
-        icon = "__gregtorio__/graphics/ores/ore-clay.png",
+        icon = "__gregtorio__/graphics/items/natural/animals/" .. items[i][1] .. ".png",
         icon_size = 64,
         flags = {},
         subgroup = "gt-stone-buildings",

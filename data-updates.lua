@@ -34,3 +34,7 @@ data.raw["technology"]["steam-power"].enabled = false
 
 --add hand crafting
 table.insert(data.raw["character"]["character"].crafting_categories, "hand")
+
+--update some graphics
+data.raw["item"]["iron-plate"].icon = "__gregtorio__/graphics/items/plates/iron-plate.png"
+data.raw["item"]["copper-plate"].icon = "__gregtorio__/graphics/items/plates/copper-plate.png"

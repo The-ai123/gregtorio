@@ -1,6 +1,6 @@
 items = {
     "coke-oven",
-    "animal-breeder",
+    "animal-pen",
     "hand"
 }
 

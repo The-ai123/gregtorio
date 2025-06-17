@@ -178,8 +178,70 @@ data:extend{{
         { type = "item", name = "burner-lab", amount = 1 }
     },
     main_product = "burner-lab",
-    icon = "__gregtorio__/graphics/ores/ore-clay.png",
-    energy_required = 90,
+    icon = "__gregtorio__/graphics/buildings/burner-lab.png",
+    energy_required = 20,
+    subgroup = "gt-stone-materials",
+    order = "aaa"
+}}
+
+data:extend{{
+    type = "recipe",
+    name = "surface-excavator",
+    category = "crafting",
+    enabled = false,
+    ingredients = {
+        { type = "item", name = "wood-gear-wheel", amount = 4 },
+        { type = "item", name = "flint", amount = 8 },
+        { type = "item", name = "brick", amount = 40 },
+        { type = "item", name = "stone-furnace", amount = 1}
+    },
+    results = {
+        { type = "item", name = "surface-excavator", amount = 1 }
+    },
+    main_product = "surface-excavator",
+    icon = "__gregtorio__/graphics/buildings/surface-excavator.png",
+    energy_required = 20,
+    subgroup = "gt-stone-materials",
+    order = "aaa"
+}}
+
+data:extend{{
+    type = "recipe",
+    name = "sieve",
+    category = "crafting",
+    enabled = false,
+    ingredients = {
+        { type = "item", name = "wood-gear-wheel", amount = 2 },
+        { type = "item", name = "wood-rod", amount = 10 },
+        { type = "item", name = "brick", amount = 40 },
+        { type = "item", name = "stone-furnace", amount = 1}
+    },
+    results = {
+        { type = "item", name = "sieve", amount = 1 }
+    },
+    main_product = "sieve",
+    icon = "__gregtorio__/graphics/buildings/sieve.png",
+    energy_required = 20,
+    subgroup = "gt-stone-materials",
+    order = "aaa"
+}}
+
+data:extend{{
+    type = "recipe",
+    name = "animal-pen",
+    category = "crafting",
+    enabled = false,
+    ingredients = {
+        { type = "item", name = "wood-plate", amount = 50 },
+        { type = "item", name = "wood-rod", amount = 100 },
+        { type = "item", name = "stone-furnace", amount = 1}
+    },
+    results = {
+        { type = "item", name = "animal-pen", amount = 1 }
+    },
+    main_product = "animal-pen",
+    icon = "__gregtorio__/graphics/buildings/animal-pen.png",
+    energy_required = 20,
     subgroup = "gt-stone-materials",
     order = "aaa"
 }}

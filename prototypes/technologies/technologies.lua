@@ -51,3 +51,51 @@ data:extend{{
         },
     },
 }}
+
+data:extend{{
+    type = "technology",
+    name = "animal-pen",
+    icon = "__gregtorio__/graphics/items/natural/animals/cow.png",
+    icon_size = 64,
+    unit = {
+        count = 5,
+        time = 30,
+        ingredients = {
+            { "gt-stone-science-pack", 1 }
+        },
+    },
+    effects = {
+        {
+            type = "unlock-recipe",
+            recipe = "animal-pen"
+        },
+        {
+            type = "unlock-recipe",
+            recipe = "breed-cow"
+        }
+    },
+}}
+
+data:extend{{
+    type = "technology",
+    name = "animal-pen",
+    icon = "__gregtorio__/graphics/items/natural/animals/cow.png",
+    icon_size = 64,
+    unit = {
+        count = 5,
+        time = 30,
+        ingredients = {
+            { "gt-stone-science-pack", 1 }
+        },
+    },
+    effects = {
+        {
+            type = "unlock-recipe",
+            recipe = "animal-pen"
+        },
+        {
+            type = "unlock-recipe",
+            recipe = "breed-cow"
+        }
+    },
+}}
