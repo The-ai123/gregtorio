@@ -4,7 +4,8 @@ local items = {
     {"burner-lab", 10},
     {"sieve", 10},
     {"animal-pen", 10},
-    {"surface-excavator", 10}
+    {"surface-excavator", 10},
+    {"burner-agricultural-tower", 10}
 }
 
 for i=1, #items do

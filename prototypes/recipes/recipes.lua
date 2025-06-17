@@ -10,7 +10,7 @@ data:extend{{
         { type = "item", name = "flint", amount = 1 }
     },
     main_product = "flint",
-    icon = "__gregtorio__/graphics/ores/ore-clay.png",
+    icon = "__gregtorio__/graphics/items/stone-materials/flint.png",
     energy_required = 1,
     subgroup = "gt-stone-materials",
     order = "aaa"
@@ -29,7 +29,7 @@ data:extend{{
         { type = "item", name = "unfired-coke-brick", amount = 1 }
     },
     main_product = "unfired-coke-brick",
-    icon = "__gregtorio__/graphics/ores/ore-clay.png",
+    icon = "__gregtorio__/graphics/items/stone-materials/unfired-coke-brick.png",
     energy_required = 1,
     subgroup = "gt-stone-materials",
     order = "aaa"
@@ -47,7 +47,7 @@ data:extend{{
         { type = "item", name = "coke-brick", amount = 1 }
     },
     main_product = "coke-brick",
-    icon = "__gregtorio__/graphics/ores/ore-clay.png",
+    icon = "__gregtorio__/graphics/items/stone-materials/coke-brick.png",
     energy_required = 10,
     subgroup = "gt-stone-materials",
     order = "aaa"
@@ -65,7 +65,7 @@ data:extend{{
         { type = "item", name = "coke-oven-basic", amount = 1 }
     },
     main_product = "coke-oven-basic",
-    icon = "__gregtorio__/graphics/ores/ore-clay.png",
+    icon = "__gregtorio__/graphics/buildings/coke-oven-basic.png",
     energy_required = 10,
     subgroup = "gt-stone-buildings",
     order = "aaa"
@@ -83,7 +83,7 @@ data:extend{{
         { type = "item", name = "unfired-brick", amount = 1 }
     },
     main_product = "unfired-brick",
-    icon = "__gregtorio__/graphics/ores/ore-clay.png",
+    icon = "__gregtorio__/graphics/items/stone-materials/unfired-brick.png",
     energy_required = 1,
     subgroup = "gt-stone-materials",
     order = "aaa"
@@ -101,7 +101,7 @@ data:extend{{
         { type = "item", name = "brick", amount = 1 }
     },
     main_product = "brick",
-    icon = "__gregtorio__/graphics/ores/ore-clay.png",
+    icon = "__gregtorio__/graphics/items/stone-materials/brick.png",
     energy_required = 1,
     subgroup = "gt-stone-materials",
     order = "aaa"
@@ -120,7 +120,7 @@ data:extend{{
         { type = "fluid", name = "fluid-creosote", amount = 250 }
     },
     main_product = "charcoal",
-    icon = "__gregtorio__/graphics/ores/ore-clay.png",
+    icon = "__gregtorio__/graphics/items/stone-materials/charcoal.png",
     energy_required = 90,
     subgroup = "gt-stone-materials",
     order = "aaa"
@@ -139,7 +139,7 @@ data:extend{{
         { type = "fluid", name = "fluid-creosote", amount = 250 }
     },
     main_product = "coke",
-    icon = "__gregtorio__/graphics/ores/ore-clay.png",
+    icon = "__gregtorio__/graphics/items/stone-materials/coke.png",
     energy_required = 90,
     subgroup = "gt-stone-materials",
     order = "aaa"
@@ -158,7 +158,7 @@ data:extend{{
         { type = "item", name = "gt-stone-science-pack", amount = 1 }
     },
     main_product = "gt-stone-science-pack",
-    icon = "__gregtorio__/graphics/ores/ore-clay.png",
+    icon = "__gregtorio__/graphics/items/stone-materials/gt-stone-science-pack.png",
     energy_required = 90,
     subgroup = "gt-stone-materials",
     order = "aaa"
@@ -240,6 +240,26 @@ data:extend{{
         { type = "item", name = "animal-pen", amount = 1 }
     },
     main_product = "animal-pen",
+    icon = "__gregtorio__/graphics/buildings/animal-pen.png",
+    energy_required = 20,
+    subgroup = "gt-stone-materials",
+    order = "aaa"
+}}
+
+data:extend{{
+    type = "recipe",
+    name = "burner-agricultural-tower",
+    category = "crafting",
+    enabled = false,
+    ingredients = {
+        { type = "item", name = "wood-plate", amount = 20 },
+        { type = "item", name = "wood-gear-wheel", amount = 4 },
+        { type = "item", name = "stone-furnace", amount = 1}
+    },
+    results = {
+        { type = "item", name = "burner-agricultural-tower", amount = 1 }
+    },
+    main_product = "burner-agricultural-tower",
     icon = "__gregtorio__/graphics/buildings/animal-pen.png",
     energy_required = 20,
     subgroup = "gt-stone-materials",

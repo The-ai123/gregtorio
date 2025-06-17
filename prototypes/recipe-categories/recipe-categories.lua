@@ -3,6 +3,7 @@ items = {
     "animal-pen",
     "hand",
     "surface-excavator",
+    "sieve"
 }
 
 for i=1, #items do

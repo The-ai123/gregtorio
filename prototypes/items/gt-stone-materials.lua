@@ -1,4 +1,4 @@
-items = {
+local items = {
     "flint",
     "coke",
     "unfired-coke-brick",
