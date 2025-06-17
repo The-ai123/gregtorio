@@ -31,5 +31,5 @@ data.extend{{
         },
     },
     energy_usage = "100kW",
-    crafting_categories = {"animal-pen"},
+    crafting_categories = {"surface-excavator"},
 }}

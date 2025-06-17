@@ -18,7 +18,7 @@ data:extend{{
 
 data:extend{{
     type = "recipe",
-    name = "unfired-brick-coke",
+    name = "unfired-coke-brick",
     category = "crafting",
     enabled = true,
     ingredients = {
@@ -26,9 +26,9 @@ data:extend{{
         { type = "item", name = "sand-ore", amount = 1 }
     },
     results = {
-        { type = "item", name = "unfired-brick-coke", amount = 1 }
+        { type = "item", name = "unfired-coke-brick", amount = 1 }
     },
-    main_product = "unfired-brick-coke",
+    main_product = "unfired-coke-brick",
     icon = "__gregtorio__/graphics/ores/ore-clay.png",
     energy_required = 1,
     subgroup = "gt-stone-materials",
@@ -37,16 +37,16 @@ data:extend{{
 
 data:extend{{
     type = "recipe",
-    name = "brick-coke",
+    name = "coke-brick",
     category = "smelting",
     enabled = true,
     ingredients = {
-        { type = "item", name = "unfired-brick-coke", amount = 1 }
+        { type = "item", name = "unfired-coke-brick", amount = 1 }
     },
     results = {
-        { type = "item", name = "brick-coke", amount = 1 }
+        { type = "item", name = "coke-brick", amount = 1 }
     },
-    main_product = "brick-coke",
+    main_product = "coke-brick",
     icon = "__gregtorio__/graphics/ores/ore-clay.png",
     energy_required = 10,
     subgroup = "gt-stone-materials",
@@ -59,7 +59,7 @@ data:extend{{
     category = "crafting",
     enabled = true,
     ingredients = {
-        { type = "item", name = "brick-coke", amount = 112 }
+        { type = "item", name = "coke-brick", amount = 112 }
     },
     results = {
         { type = "item", name = "coke-oven-basic", amount = 1 }

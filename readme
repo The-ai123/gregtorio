@@ -1,6 +1,7 @@
 To Do
 Add resources
     Wheat
+    Soil
     Cow processing
     More ore patches
     
@@ -14,7 +15,7 @@ Add Recipes and items
 
 Add Buildings
     Crafting Bench
-    Surface level excavator
+    
 
 Modify Vanilla
     Remove techs that dont fit (most)
@@ -22,3 +23,5 @@ Modify Vanilla
 Add techs
     seed finder
     
+Bugs
+    Fix graphic for flint axe tech

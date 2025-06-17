@@ -20,6 +20,8 @@ require "prototypes.items.parts.gt-gear-wheels"
 require "prototypes/items/natural/gt-plants"
 require "prototypes/items/natural/gt-animals"
 require "prototypes/items/natural/gt-animal-products"
+require "prototypes/items/fluids"
+
 
 require "prototypes/buildings/coke-oven-basic"
 require "prototypes/buildings/burner-lab"
@@ -35,7 +37,9 @@ require "prototypes/recipes/plates-recipes"
 require "prototypes/recipes/ingots-recipes"
 require "prototypes/recipes/gears-recipes"
 require "prototypes/recipes/hand-only"
-require "prototypes/recipes/natural/animal-pen"
+require "prototypes/recipes/natural/animal-pen-recipes"
+require "prototypes/recipes/surface-excavator-recipes"
+require "prototypes/recipes/sieve-recipes"
 
 
 require "prototypes/subgroups/subgroups"

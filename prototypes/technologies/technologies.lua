@@ -2,7 +2,7 @@ data:extend{{
     name = "flint-axe",
     type = "technology",
     icon = "__base__/graphics/technology/steel-axe.png",
-    icon_size = 128,
+    icon_size = 64,
     research_trigger = {
         type = "craft-item",
         item = "flint",
@@ -39,11 +39,11 @@ data:extend{{
         },
         {
             type = "unlock-recipe",
-            recipe = "brick-coke"
+            recipe = "coke-brick"
         },
         {
             type = "unlock-recipe",
-            recipe = "unfired-brick-coke"
+            recipe = "unfired-coke-brick"
         },
         {
             type = "unlock-recipe",

@@ -1,7 +1,8 @@
 items = {
     "coke-oven",
     "animal-pen",
-    "hand"
+    "hand",
+    "surface-excavator",
 }
 
 for i=1, #items do
