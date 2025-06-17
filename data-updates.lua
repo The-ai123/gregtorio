@@ -31,3 +31,6 @@ data.raw["recipe"]["copper-plate"].enabled = false
 --disable vanilla technologies
 data.raw["technology"]["electronics"].enabled = false
 data.raw["technology"]["steam-power"].enabled = false
+
+--add hand crafting
+table.insert(data.raw["character"]["character"].crafting_categories, "hand")

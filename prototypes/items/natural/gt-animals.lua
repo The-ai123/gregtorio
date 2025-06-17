@@ -2,7 +2,7 @@
 local items = {
     {"cow", 1, 0},
     {"baby-cow", 1, 60 * 5, "cow"},
-    {"milked-cow", 1, 60 * 10, "cow"}
+    {"tired-cow", 1, 60 * 5, "cow"}
 }
 
 for i=1, #items do

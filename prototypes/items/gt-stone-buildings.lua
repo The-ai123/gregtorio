@@ -2,10 +2,8 @@
 local items = {
     {"coke-oven-basic", 10},
     {"burner-lab", 10},
-    {"seed-finder", 10},
-    {"animal-breeder", 10},
+    {"sieve", 10},
     {"animal-pen", 10},
-    {"slaughter-house", 10}
 }
 
 for i=1, #items do

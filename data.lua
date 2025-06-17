@@ -30,6 +30,8 @@ require "prototypes/recipes/temp-recipes"
 require "prototypes/recipes/plates-recipes"
 require "prototypes/recipes/ingots-recipes"
 require "prototypes/recipes/gears-recipes"
+require "prototypes/recipes/hand-only"
+require "prototypes/recipes/natural/animal-pen"
 
 
 require "prototypes/subgroups/subgroups"
